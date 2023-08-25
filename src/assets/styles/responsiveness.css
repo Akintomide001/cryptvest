@@ -22,7 +22,7 @@
     font-weight: 100;
 }
 .text p{
-    width: 90%;
+    width: 100%;
     height: fit-content;
     padding-bottom: 10px;
 }
@@ -32,7 +32,6 @@
 }
 .body-2{
     padding-bottom: 25px;
-    padding-right: 10px;
 }
 .body-2i{
     display: block;

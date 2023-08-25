@@ -24,14 +24,13 @@ export default function Header() {
                     </div>
 
                     <div className="head-connect">
-                        <a href="login"><span>LOGIN</span>
-                            <Icon icon={arrowRightAlt} className="arrow" />
-                        </a>
+                        <Link to={'/Login'}><span>LOGIN</span>
+                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
                     </div>
                     <div className="head-connect">
-                        <a href="dashboard"><span>MY ACCOUNT</span>
-                            <Icon icon={arrowRightAlt} className="arrow" />
-                        </a>
+                        <Link to={'/Dashboard'}><span>MY ACCOUNT</span>
+                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
+
                     </div>
 
 

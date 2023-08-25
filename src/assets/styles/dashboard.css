@@ -313,4 +313,7 @@ padding: 10px 20px;
 .mobile-con{
     display: flex;
 }
+.sub-header-2{
+    display: none;
+}
 }

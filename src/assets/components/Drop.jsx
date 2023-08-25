@@ -21,10 +21,14 @@ export default function Drop() {
                         <li><Link to={'/Contact Us'}>Contact</Link></li>
                         <li><Link to={'/About Us'}>About us</Link></li>
                     </div>
-                    <div className="drop-connect">
-                        <a href="dashboard"><span>MY ACCOUNT</span>
-                            <Icon icon={arrowRightAlt} className="arrow" />
-                        </a>
+                    <div className="head-connect1">
+                        <Link to={'/Login'}><span>LOGIN</span>
+                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                    </div>
+                    <div className="head-connect1">
+                        <Link to={'/Dashboard'}><span>MY ACCOUNT</span>
+                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
+
                     </div>
                 </div>}
         </div>
