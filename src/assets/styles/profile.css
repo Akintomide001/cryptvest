@@ -1,0 +1,119 @@
+.profile {
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+.head-profile{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #006cff;
+    font-style: italic;
+}
+.profile-1 {
+    padding: 50px 60px;
+    background-color: #051738;
+    border: 1px solid #9fa9bd;
+    border-radius: 10px;
+}
+
+.profile-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-1 {
+    width: 45%;
+}
+
+.first-name {
+    padding: 15px 10px;
+    width: 100%;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    background-color: #000d26;
+}
+
+.last-name {
+    padding: 15px 10px;
+    width: 100%;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    background-color: #000d26;
+}
+
+.profile-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profile-number {
+    width: 45%;
+}
+
+.profile-email {
+    width: 45%;
+}
+
+.phone-number {
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    background-color: #000d26;
+}
+
+.email {
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    background-color: #000d26;
+}
+
+.profile-country {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.country {
+    width: 45%;
+    padding: 15px 10px;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    background-color: #000d26;
+}
+/* edit-profile */
+.edit-profile {
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+.edit-form {
+    padding: 50px 60px;
+    background-color: #051738;
+    border: 1px solid #9fa9bd;
+    border-radius: 10px;
+}
+.edit-button{
+    text-align: center;
+    margin-top: 20px;
+}
+.edit-button button{
+    background-color: #006cff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 505px){
+.profile-1 {
+  padding: 10px 6px;
+}
+.profile{
+    padding: 0;
+    margin-top: 25px;
+}
+}

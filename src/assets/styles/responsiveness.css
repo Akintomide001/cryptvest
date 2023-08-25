@@ -1,0 +1,221 @@
+@media screen and (max-width: 505px){
+/* home */
+.mobile-con{
+    display: flex;
+}
+.header-list{
+    display: none;
+}
+.drop{
+    display: block;
+    margin-top: 10px;
+}
+.head-connect{
+    display: none;
+}
+.body-1 h2{
+    font-size: 23px;
+    font-weight: 400;
+}
+.body-1 h3{
+    font-size: 14px;
+    font-weight: 100;
+}
+.text p{
+    width: 90%;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.containers{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.body-2{
+    padding-bottom: 25px;
+    padding-right: 10px;
+}
+.body-2i{
+    display: block;
+    padding: 0 15px;
+}
+.containers-2{
+    padding: 0 10px;
+}
+.body-2a{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.chose{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.body-2a h3{
+    font-size: 19px;
+}
+.body-2a p{
+    font-size: 11px;
+}
+/* home */
+/* dashboard */
+.mobile-account{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sidebar-1{
+    display: none;
+}
+.dashboard{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+.dashboard-2{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.container-ii{
+    width: 32%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bit{
+    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+#balance{
+    background-color: red;
+}
+.container-ii h3{
+    font-size: 10px;
+}
+.container-ii h2{
+    font-size: 16px;
+}
+.btc{
+    width: 20px;
+    height: 20px;
+}
+.btc-1{
+    font-size: 16px;
+    margin-top: -4px;
+}
+.container-2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-2ai{
+    padding: 5px 7px;
+    font-size: 10px;
+    justify-content: center;
+}
+.transaction{
+    font-size: 12px;
+}
+.body-transact td{
+    font-size: 10px;
+}
+.tab{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.tab-1{
+    width: 100%;
+}
+.asset-create{
+    text-align: left;
+}
+.account-form {
+    margin: 0;
+}
+.asset{
+    text-align: left;
+}
+
+/* dashboard */
+/* profile */
+.profile{
+    padding: 0;
+    margin-top: 25px;
+}
+.profile-1{
+    padding: 10px 6px;
+}
+.edit-profile{
+    padding: 0;
+    margin-top: 25px;
+}
+.edit-form{
+    padding: 20px 6px;
+}
+.bottom{
+    display: flex;
+}
+.head-profile{
+    margin-top: 70px;
+}
+.analytics-data {
+    margin-top: 70px;
+}
+.asset-create{
+    padding-top: 70px;
+}
+.c-form{
+    width:100%;
+}
+.contact-form{
+    padding: 0 10px;
+}
+.contact-1{
+    padding: 20px 20px;
+}
+.contact-3a{
+    display: block;
+    padding: 10px 20px ;
+}
+.contact-number {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main-about1{
+    display: block;
+}
+.about-us{
+    font-size: 29px;
+}
+.us-1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+tbody td button {
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+/*  */
+.coin-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.coin{
+    padding-left: 0;
+}
+.coin-search h1{
+    font-size: 15px;
+}
+
+.coin-data{
+    font-size: 9px;
+}
+.coin-1{
+    padding-left: 0px;
+}
+.coin-data{
+    width: 75%;
+    padding-left: 5px;
+    padding-right: 0;
+}
+/* login register */
+}

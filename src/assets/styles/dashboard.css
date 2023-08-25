@@ -1,0 +1,316 @@
+.dashboard{
+    display: flex;
+    padding-left: 20px;
+}
+.mobile-con{
+    display: none;
+}
+.dash{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #006cff;
+}
+.dashboard-2{
+    padding-left: 230px;
+    padding-right: 40px;
+    margin-top: 30px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container-1a{
+    display: flex;
+    justify-content: space-between;
+}
+.container-ii{
+    width: 300px;
+    height: 100px;
+    background-color: #051738;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.container-ii h3{
+    font-weight: 400;
+    font-size: 14px;
+}
+.connected{
+    display: flex;
+    margin-top: 5px;
+}
+.connected-1{
+    display: inline-block;
+}
+.btc{
+    width: 30px;
+    height: 30px;
+}
+.btc-1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+/* container-2 */
+.container-2{
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.container-2a{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.container-2ai{
+    display: flex;
+    background-color: #051738;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* table */
+.transact{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.tab-1{
+    text-align: center;
+    width: 70%;
+    border: 1px solid  #9fa9bd;
+    background-color: #051738;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin: auto;
+    
+}
+.tab-1 table{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.tab{
+    text-align: center;
+    width: 100%;
+    border: 1px solid  #9fa9bd;
+    background-color: #051738;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+.tab table{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+tbody td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+tbody td button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b426a;
+    color: #b1bbce;
+    font-weight: 700;
+}
+.analytics-data{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #006cff;
+}
+.asset-create{
+    text-align: center;
+}
+.asset{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.visible{
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: #006cff;
+    border: none;
+    border-radius: 5px;
+}
+/* add account */
+.form-account{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.account-form{
+    background-color: #051738;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+#name{
+    width: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: #000d26;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#market{
+    width: 100%;
+    background-color:  #000d26;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.value{
+    margin-top: 10px;
+}
+.form-button{
+background-color: #2b426a;
+border: none;
+border-radius: 10px;
+padding: 10px 20px;
+
+}
+.submit{
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width: 505px){
+.mobile-account{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sidebar-1{
+    display: none;
+}
+.dashboard{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+.dashboard-2{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.container-ii{
+    width: 32%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bit{
+    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+#balance{
+    background-color: red;
+}
+.container-ii h3{
+    font-size: 10px;
+}
+.container-ii h2{
+    font-size: 16px;
+}
+.btc{
+    width: 20px;
+    height: 20px;
+}
+.btc-1{
+    font-size: 16px;
+    margin-top: -4px;
+}
+.container-2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-2ai{
+    padding: 5px 7px;
+    font-size: 10px;
+    justify-content: center;
+}
+.transaction{
+    font-size: 12px;
+}
+.body-transact td{
+    font-size: 10px;
+}
+.tab{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.tab-1{
+    width: 100%;
+}
+.asset-create{
+    text-align: left;
+}
+.account-form {
+    margin: 0;
+}
+.asset{
+    text-align: left;
+}
+
+/* dashboard */
+/* profile */
+.profile{
+    padding: 0;
+    margin-top: 25px;
+}
+.profile-1{
+    padding: 10px 6px;
+}
+.edit-profile{
+    padding: 0;
+    margin-top: 25px;
+}
+.edit-form{
+    padding: 20px 6px;
+}
+.bottom{
+    display: flex;
+}
+.head-profile{
+    margin-top: 70px;
+}
+.analytics-data {
+    margin-top: 70px;
+}
+.asset-create{
+    padding-top: 70px;
+}
+.mobile-con{
+    display: flex;
+}
+}

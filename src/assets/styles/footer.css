@@ -1,0 +1,153 @@
+.about{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 90px;
+}
+.about-us{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    /* margin-top: 30px; */
+}
+.about-main{
+    border:1px solid #9fa9bd;
+    margin-top: 30px;
+    padding: 40px 20px;
+    background-color: #051738;
+    border-radius: 10px;
+}
+.about-main h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:  #006cff;
+}
+.us-1{
+    width: 22.5%;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #000d26;
+    color: #959fb3;
+}
+.us-1 h3{
+text-align: center;
+margin-bottom: 15px;
+color: white;
+}
+.us-1 p{
+    font-size: 14px;
+}
+/*  */
+.contact{
+    padding-top: 60px;
+}
+.contact-1{
+    background-color: #051738;
+    padding: 40px 20px;
+    text-align: center;
+}
+.contact-form{
+    width: 100%;
+    margin-top: 30px;
+}
+.contact-form h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.c-form{
+    margin: auto;
+    background-color: #051738;
+    width: 400px;
+    padding: 20px 10px;
+    border:1px solid #9fa9bd;
+    border-radius: 10px;
+
+}
+.c-form input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+    background-color: #000d26;
+}
+.c-form textarea{
+    background-color: #000d26;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 1px solid #006cff;
+    border-radius: 5px;
+}
+.c-form button{
+    display: block;
+    margin: auto;
+    background-color: #006cff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.contact-3{
+    border-top: 1px solid #959fb3;
+    margin-top: 40px;
+}
+.contact-3a{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+#social{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding-left: 40px;
+padding-right: 40px;
+}
+.contact-number{
+    border: 1px solid #959fb3;
+    width: 30%;
+    background-color: #051738;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.contact-number h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.i-con{
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media screen and (max-width: 505px){
+    .us-1{
+        width: 100%;
+
+    }
+    .about-us{
+        font-size: 27px;
+    }
+    .c-form{
+        width:100%;
+    }
+    .contact-form{
+        padding: 0 10px;
+    }
+    .contact-1{
+        padding: 20px 20px;
+    }
+    .contact-3a{
+        display: block;
+        padding: 10px 20px ;
+    }
+    .contact-number {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}

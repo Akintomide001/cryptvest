@@ -1,0 +1,68 @@
+.login_sign_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.login_sign_in p{
+    color: #78849b;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.t-input{
+    padding: 10px;
+    border: 1px solid #006cff;
+    background-color: #000d26;
+}
+.t-h1{
+    font-size: 20px;
+    color: #006cff;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.t-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    width: 400px;
+    gap: 10px;
+    background-color: #051738;
+    border: 1px solid #78849b;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.t-btn{
+    padding: 10px;
+    background-color: #006cff;
+    cursor: pointer;
+    border: none;
+}
+.t-span{
+    font-size: 12px;
+    text-align: center;
+}
+.t-span a{
+    color: #006cff;
+}
+.t-p{
+    font-size: 12px;
+    color:red;
+    text-align: center;
+}
+.input-span{
+    margin-top: 0;
+}
+@media screen and (max-width: 505px){
+    .t-form{
+        width: 100%;
+        padding: 10px;
+    }
+    .login_sign_in{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 5px;
+        height: 400px;
+    }
+    
+}

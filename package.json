@@ -1,0 +1,41 @@
+{
+  "name": "cryptvest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify/icons-ant-design": "^1.2.7",
+    "@iconify/icons-carbon": "^1.2.19",
+    "@iconify/icons-clarity": "^1.2.8",
+    "@iconify/icons-cryptocurrency": "^1.2.5",
+    "@iconify/icons-dashicons": "^1.2.4",
+    "@iconify/icons-gg": "^1.2.4",
+    "@iconify/icons-logos": "^1.2.33",
+    "@iconify/icons-mdi": "^1.2.47",
+    "@iconify/icons-mingcute": "^1.2.7",
+    "@iconify/icons-skill-icons": "^1.2.1",
+    "@iconify/icons-tabler": "^1.2.88",
+    "@iconify/react": "^4.1.1",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "sweetalert2": "^11.7.27"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
