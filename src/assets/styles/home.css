@@ -103,3 +103,9 @@ body{
 /* #phone_number{
     -moz-appearance: textfield;
 } */
+@media screen and (max-width: 505px){
+
+    .containers-2{
+        margin-top: 30px;
+    }
+}
