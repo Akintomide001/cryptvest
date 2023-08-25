@@ -2,6 +2,7 @@ import React from 'react'
 import Form from '../components/Form'
 import Data from '../components/Data'
 import { useState } from 'react'
+import MobileDrop from '../components/MobileDrop'
 
 export default function Table() {
     const [IsVisible, setIsVisible] = useState(false)
@@ -11,15 +12,18 @@ export default function Table() {
         const newData = data.filter((current, index) => index != id);
         setData(newData)
     }
-  return (
-    <div>
-<div className="mobile-account">
+    return (
+        <div>
+            <div className="mobile-con">
+                <MobileDrop />
+            </div>
+            <div className="mobile-account">
                 <div className="asset-create">
                     <button onClick={() => setIsVisible(current => !current)} className="visible">{IsVisible ? "Close form" : "Add Account"}</button>
                     {IsVisible && <Form setData={setData} />}
 
                 </div>
-                
+
                 <div className="asset">
                     Your Assets
                 </div>
@@ -48,5 +52,5 @@ export default function Table() {
                 </div>
             </div>
         </div>
-  )
+    )
 }
