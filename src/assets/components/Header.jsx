@@ -16,27 +16,29 @@ export default function Header() {
                             <img src={logo} alt='/' className="head-logo" />
                         </div>
                     </div>
-                    <div className="sub-header-2">
-                        <li><Link to={'/'}>Home</Link></li>
-                        <li><Link to={'/Contact Us'}>Contact</Link></li>
-                        <li><Link to={'/About Us'}>About us</Link></li>
+                    <div className='link-header'>
+                        <div className="sub-header-2">
+                            <li><Link to={'/'}>Home</Link></li>
+                            <li><Link to={'/Contact Us'}>Contact</Link></li>
+                            <li><Link to={'/About Us'}>About us</Link></li>
 
-                    </div>
+                        </div>
 
-                    <div className="head-connect">
-                        <Link to={'/Login'}><span>LOGIN</span>
-                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
-                    </div>
-                    <div className="head-connect">
-                        <Link to={'/Dashboard'}><span>MY ACCOUNT</span>
-                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                        <div className="head-connect">
+                            <Link to={'/Login'}><span>LOGIN</span>
+                                <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                        </div>
+                        <div className="head-connect">
+                            <Link to={'/Dashboard'}><span>MY ACCOUNT</span>
+                                <Icon icon={arrowRightAlt} className="arrow" /></Link>
 
-                    </div>
+                        </div>
 
 
 
-                    <div className="drop">
-                        <Drop />
+                        <div className="drop">
+                            <Drop />
+                        </div>
                     </div>
                 </div>
             </div>

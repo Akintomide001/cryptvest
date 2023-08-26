@@ -5,6 +5,9 @@ import { useState } from "react";
 import '../styles/header.css'
 import arrowRightAlt from '@iconify/icons-dashicons/arrow-right-alt';
 import { Link } from 'react-router-dom';
+import '../styles/header.css'
+import '../styles/globals.css'
+import '../styles/Home.module.css'
 
 
 export default function Drop() {
