@@ -60,12 +60,17 @@
     .t-form{
         width: 100%;
         padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .login_sign_in{
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 5px;
         height: 400px;
+    }
+    .t-input{
+        margin-bottom: 3px;
     }
     
 }

@@ -23,19 +23,18 @@ export default function Header() {
                             <li><a href='/About Us'>About us</a></li>
 
                         </div>
+                        {
+                            localStorage.getItem('user-info') ?
+                                <div className="head-connect">
+                                    <a href='/Login'><span>LOGIN</span>
+                                        <Icon icon={arrowRightAlt} className="arrow" /></a>
+                                </div> :
+                                <div className="head-connect">
+                                    <a href='/Dashboard'><span>MY ACCOUNT</span>
+                                        <Icon icon={arrowRightAlt} className="arrow" /></a>
 
-                        <div className="head-connect">
-                            <a href='/Login'><span>LOGIN</span>
-                                <Icon icon={arrowRightAlt} className="arrow" /></a>
-                        </div>
-                        <div className="head-connect">
-                            <a href='/Dashboard'><span>MY ACCOUNT</span>
-                                <Icon icon={arrowRightAlt} className="arrow" /></a>
-
-                        </div>
-
-
-
+                                </div>
+                        }
                         <div className="drop">
                             <Drop />
                         </div>

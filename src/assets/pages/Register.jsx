@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState ,useEffect } from 'react'
 import '../styles/globals.css'
 import '../styles/Home.module.css'
 import '../styles/login_register.css'
@@ -8,6 +8,13 @@ import { Link } from 'react-router-dom'
 
 
 export default function Register() {
+  // useEffect(()=>{
+  //   if(localStorage.getItem('user-info'))
+  //   {
+  //     Navigate('/')
+  //   }
+  // }
+  // )
   const [firstname, setFirstName] = useState()
   const [lastname, setLastName] = useState()
   const [phone, setPhone] = useState()
