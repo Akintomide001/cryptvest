@@ -19,13 +19,13 @@ export default function Mobile() {
             {IsVisible &&
                 <div className="nav-menu" >
                 <div className="dropdown-list">
-                    <li><Link to={'/'}>Home</Link></li>
-                    <li><Link to={'/Dashboard'}>Dashboard</Link></li>
-                    <li><Link to={'/Table'}>Connected Account</Link></li>
-                    <li><Link to={'/Analytics'}>Analytics</Link></li>
-                    <li><Link to={'/Profile'}>Profile</Link></li>
-                    <li><Link to={'/Editprofile'}>Edit Profile</Link></li>
-                    <li><Link to={'/'}>Log out</Link></li>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/Dashboard'>Dashboard</a></li>
+                    <li><a href='/Table'>Connected Account</a></li>
+                    <li><a href='/Analytics'>Analytics</a></li>
+                    <li><a href='/Profile'>Profile</a></li>
+                    <li><a href='/Editprofile'>Edit Profile</a></li>
+                    <li><a href='/' style={{color: 'red'}}>Log out</a></li>
                 </div>
             </div>}
     </div>

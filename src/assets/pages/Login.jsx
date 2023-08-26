@@ -65,7 +65,7 @@ const handleSubmit = async (e) => {
             value={pwd||''}
             onChange={(e) => setPwd(e.target.value)} />
           <button className="t-btn">Login</button>
-          <span className="t-span">Don't you have an account? <Link to={'../Register'}>Register</Link></span>
+          <span className="t-span">Don't you have an account? <a href='./Register'>Register</a></span>
         </form>
       </div>
     </div>

@@ -18,19 +18,19 @@ export default function Header() {
                     </div>
                     <div className='link-header'>
                         <div className="sub-header-2">
-                            <li><Link to={'/'}>Home</Link></li>
-                            <li><Link to={'/Contact Us'}>Contact</Link></li>
-                            <li><Link to={'/About Us'}>About us</Link></li>
+                            <li><a href='/'>Home</a></li>
+                            <li><a href='/Contact Us'>Contact</a></li>
+                            <li><a href='/About Us'>About us</a></li>
 
                         </div>
 
                         <div className="head-connect">
-                            <Link to={'/Login'}><span>LOGIN</span>
-                                <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                            <a href='/Login'><span>LOGIN</span>
+                                <Icon icon={arrowRightAlt} className="arrow" /></a>
                         </div>
                         <div className="head-connect">
-                            <Link to={'/Dashboard'}><span>MY ACCOUNT</span>
-                                <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                            <a href='/Dashboard'><span>MY ACCOUNT</span>
+                                <Icon icon={arrowRightAlt} className="arrow" /></a>
 
                         </div>
 

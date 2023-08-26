@@ -20,17 +20,17 @@ export default function Drop() {
             {IsVisible &&
                 <div className="nav-menu" >
                     <div className="dropdown-list">
-                        <li><Link to={'/'}>Home</Link></li>
-                        <li><Link to={'/Contact Us'}>Contact</Link></li>
-                        <li><Link to={'/About Us'}>About us</Link></li>
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/Contact Us'>Contact</a></li>
+                        <li><a href='/About US'>About Us</a></li>
                     </div>
                     <div className="head-connect1">
-                        <Link to={'/Login'}><span>LOGIN</span>
-                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                        <a href='/Login'><span>LOGIN</span>
+                            <Icon icon={arrowRightAlt} className="arrow" /></a>
                     </div>
                     <div className="head-connect1">
-                        <Link to={'/Dashboard'}><span>MY ACCOUNT</span>
-                            <Icon icon={arrowRightAlt} className="arrow" /></Link>
+                        <a href='/Dashboard'><span>MY ACCOUNT</span>
+                            <Icon icon={arrowRightAlt} className="arrow" /></a>
 
                     </div>
                 </div>}
