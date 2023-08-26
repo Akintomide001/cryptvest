@@ -63,7 +63,7 @@ Navigate('../Login')
           <button className="t-btn" onClick={signup}><a href='/'></a>Sign Up</button>
 
           {/* <p className="t-p">This is an error!</p> */}
-          <span className="t-span">Do you have an account? <Link to={'../Login'}>Login</Link></span>
+          <span className="t-span">Do you have an account? <a href='./Login'>Login</a></span>
         </form>
       </div>
     </div>
