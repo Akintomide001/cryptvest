@@ -4,6 +4,8 @@ import '../styles/globals.css'
 import '../styles/Home.module.css'
 import '../styles/login_register.css'
 import {useNavigate} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 
 export default function Register() {
   const [firstname, setFirstName] = useState()
@@ -28,7 +30,7 @@ export default function Register() {
     })
     result = await result.json()
     localStorage.setItem('user-info', JSON.stringify(result));
-Navigate('./Login')
+Navigate('../Login')
 
   }
 
@@ -58,10 +60,10 @@ Navigate('./Login')
           <input type="text" placeholder="password" name="password" className="t-input"
             value={password || ''}
             onChange={(e) => setPassword(e.target.value)} />
-          <button className="t-btn" onClick={signup}><a href='/'></a>Sign in</button>
+          <button className="t-btn" onClick={signup}><a href='/'></a>Sign Up</button>
 
           {/* <p className="t-p">This is an error!</p> */}
-          <span className="t-span">Do you have an account? <a href='./Login'>Login</a></span>
+          <span className="t-span">Do you have an account? <Link to={'../Login'}>Login</Link></span>
         </form>
       </div>
     </div>

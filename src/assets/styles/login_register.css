@@ -37,6 +37,9 @@
     background-color: #006cff;
     cursor: pointer;
     border: none;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
 }
 .t-span{
     font-size: 12px;
