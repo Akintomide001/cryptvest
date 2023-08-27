@@ -24,15 +24,20 @@ export default function Drop() {
                         <li><a href='/Contact Us'>Contact</a></li>
                         <li><a href='/About US'>About Us</a></li>
                     </div>
-                    <div className="head-connect1">
-                        <a href='/Login'><span>LOGIN</span>
-                            <Icon icon={arrowRightAlt} className="arrow" /></a>
-                    </div>
-                    <div className="head-connect1">
-                        <a href='/Dashboard'><span>MY ACCOUNT</span>
-                            <Icon icon={arrowRightAlt} className="arrow" /></a>
+                    {
+                            localStorage.getItem('user-info') ?
+                                <div className="head-connect1">
+                                    <a href='/Dashboard'><span>MY ACCOUNT</span>
+                                        <Icon icon={arrowRightAlt} className="arrow" /></a>
 
-                    </div>
+                                </div>
+                                :
+                                <div className="head-connect1">
+                                    <a href='/Login'><span>LOGIN</span>
+                                        <Icon icon={arrowRightAlt} className="arrow" /></a>
+                                </div>
+
+                        }
                 </div>}
         </div>
     )
