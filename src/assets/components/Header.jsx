@@ -24,7 +24,7 @@ export default function Header() {
 
                         </div>
                         {
-                            localStorage.getItem('user-info') ?
+                            localStorage.getItem('userData') ?
                                 <div className="head-connect">
                                     <a href='/Dashboard'><span>MY ACCOUNT</span>
                                         <Icon icon={arrowRightAlt} className="arrow" /></a>

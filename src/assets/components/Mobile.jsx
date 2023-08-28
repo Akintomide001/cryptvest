@@ -25,7 +25,14 @@ export default function Mobile() {
                     <li><a href='/Analytics'>Analytics</a></li>
                     <li><a href='/Profile'>Profile</a></li>
                     <li><a href='/Editprofile'>Edit Profile</a></li>
-                    <li><a href='/' style={{color: 'red'}}>Log out</a></li>
+                    <li><a href='/' style={{color: 'red'}}
+                    onClick={() => {
+                      localStorage.removeItem("token");
+                      localStorage.removeItem("userid");
+                      localStorage.removeItem("userData");
+                      window.location.href = "/"
+                  }}
+                    >Log out</a></li>
                 </div>
             </div>}
     </div>

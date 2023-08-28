@@ -70,7 +70,14 @@ export default function Sidebar({ currentRoute, setCurrentRoute }) {
                     }
                     <span
                         className="sidebar-link1"
-                        style={{ color: "red" }}>
+                        style={{ color: "red" }}
+                        onClick={() => {
+                            localStorage.removeItem("token");
+                            localStorage.removeItem("userid");
+                            localStorage.removeItem("userData");
+                            window.location.href = "/"
+                        }}
+                        >
                         <a href="/" style={{ display: "flex", alignItems: "center" }}><Icon icon={logoutOutlined} style={{ marginRight: "4px" }} />
                             <span>Logout</span></a>
                     </span>
