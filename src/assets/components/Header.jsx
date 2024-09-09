@@ -23,7 +23,12 @@ export default function Header() {
                             <li><a href='/About Us'>About us</a></li>
 
                         </div>
-                        {
+                        <div className="head-connect">
+                                    <a href='/Dashboard'><span>MY ACCOUNT</span>
+                                        <Icon icon={arrowRightAlt} className="arrow" /></a>
+
+                                </div>
+{/*                         {
                             localStorage.getItem('userData') ?
                                 <div className="head-connect">
                                     <a href='/Dashboard'><span>MY ACCOUNT</span>
@@ -36,7 +41,7 @@ export default function Header() {
                                         <Icon icon={arrowRightAlt} className="arrow" /></a>
                                 </div>
 
-                        }
+                        } */}
                         <div className="drop">
                             <Drop />
                         </div>
